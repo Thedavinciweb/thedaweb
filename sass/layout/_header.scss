@@ -1,0 +1,19 @@
+.main-header {
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	.logo {
+		background: rgba($white,.3);
+		min-width: 10rem;
+		max-width: 15rem;
+		width: 25%;
+		&-title {
+			background: transparent  url('../img/logo.svg') no-repeat center;
+			background-size: contain;
+			height: 16rem;
+			text-indent: -9999px;
+			width: 16rem;
+		}
+	}
+}
