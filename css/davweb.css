@@ -9,8 +9,8 @@
  */
 html {
   font-family: "Poppins", sans-serif;
-  /* 1 */
   font-weight: 400;
+  /* 1 */
   line-height: 1.6;
   /* 2*/
   -ms-text-size-adjust: 100%;
@@ -440,6 +440,61 @@ template {
   box-sizing: border-box;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 .75em;
+}
+
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.title-large {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.title-large span {
+  display: block;
+  font-family: "Sriracha", cursive;
+  font-weight: 300;
+}
+
+.text-intro {
+  font-size: 1.2rem;
+}
+
+.grid {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .main-header {
   left: 0;
   position: absolute;
@@ -448,10 +503,13 @@ template {
 }
 
 .main-header .logo {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.4);
+  height: 23vh;
   min-width: 10rem;
   max-width: 15rem;
-  width: 25%;
+  text-align: center;
+  top: 1em;
+  width: 100%;
 }
 
 .main-header .logo-title {
@@ -462,7 +520,64 @@ template {
   width: 16rem;
 }
 
+.main-header .logo-sbtle {
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  top: -10rem;
+}
+
+.main-header .logo-sbtle span {
+  color: #003F93;
+  font-family: "Sriracha", cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.main-header .main-nav {
+  display: none;
+}
+
 .hero {
   background: linear-gradient(to right, #46B5BB, #003F93);
   color: #FFF;
+  padding-bottom: 12em;
+  padding-top: 12em;
+  text-align: center;
+}
+
+.hero-img {
+  display: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: .75em 2.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:not:last-of-type {
+  margin-bottom: .6em;
+}
+
+.btn--primary {
+  background: #8BBA1B;
+  color: #FFF;
+}
+
+.btn--primary:hover, .btn--primary:focus {
+  background: #597711;
+}
+
+.btn--secondary {
+  border: 2px solid #FFF;
+  color: #FFF;
+}
+
+.btn--secondary:hover, .btn--secondary:focus {
+  background: #FFF;
+  color: #46B5BB;
 }

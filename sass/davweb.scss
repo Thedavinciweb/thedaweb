@@ -21,6 +21,7 @@
 //  3. Base styles
 
 @import "base/base";
+@import "base/typo";
 
 
 
@@ -30,8 +31,9 @@
 
 //  4. layout
 
+@import "layout/grid";
 @import "layout/header";
-@import "layout/hero"
+@import "layout/hero";
 
 
 
@@ -41,3 +43,5 @@
 
 
 //  5. components
+
+@import  "components/buttons"

@@ -1,4 +1,11 @@
 .hero {
 	background: linear-gradient(to right, $accent, $dblue);
 	color: $text-inverse;
+	padding-bottom:  12em;
+	padding-top:  12em;
+	text-align: center;
+}
+
+.hero-img {
+	display: none;
 }

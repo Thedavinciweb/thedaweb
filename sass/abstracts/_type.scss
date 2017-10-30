@@ -14,10 +14,9 @@ $f-black: 700;
 
 //  Font Mixin
 
-@mixin font($font-stack, $weight, $title) {
+@mixin font($font-stack, $weight) {
 	font-family: $font-stack;
 	font-weight: $weight;
-	font-family: $title;
 }
 
 
