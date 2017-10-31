@@ -5,18 +5,18 @@
 	top: 0;
 	.logo {
 		background: rgba($white,.4);
-		height: 23vh;
+		height: 20vh;
 		min-width: 10rem;
 		max-width: 15rem;
 		text-align: center;
 		top: 1em;
-		width: 100%;
+		width: 85%;
 		&-title {
 			background: transparent  url('../img/logo.svg') no-repeat center;
 			background-size: contain;
-			height: 16rem;
+			height: 12rem;
 			text-indent: -9999px;
-			width: 16rem;
+			width: 12rem;
 		}
 		&-sbtle {
 			font-weight: $f-bold;
@@ -24,7 +24,7 @@
 			line-height: 1;
 			position: relative;
 			text-align: center;
-			top: -10rem;
+			top: -4.5em;
 			span {
 				color: $dblue;
 				font-family: $title;
@@ -33,7 +33,5 @@
 			}
 		}
 	}
-	.main-nav {
-		display: none;
-	}
 }
+	

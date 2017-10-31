@@ -10,6 +10,7 @@
 
 .btn--primary {
 	background: $color;
+	border: 2px solid $color;
 	color: $text-inverse;
 	&:hover, &:focus {
 		background: darken($color, 15%);
