@@ -1,6 +1,6 @@
 //  Fonts 
 
-$font-stack: 'Poppins', sans-serif; 
+$body: 'Source Sans Pro', sans-serif; 
 $title: 'Sriracha', cursive; 
 
 
@@ -8,16 +8,17 @@ $title: 'Sriracha', cursive;
 
 $f-light: 300;
 $f-normal: 400;
-$f-bold:  600 ; 
-$f-black: 700;
+$f-bold:  700 ; 
+$f-black: 900;
 
 
 //  Font Mixin
 
-@mixin font($font-stack, $weight) {
-	font-family: $font-stack;
+@mixin font($body, $weight) {
+	font-family: $body;
 	font-weight: $weight;
 }
+
 
 
 

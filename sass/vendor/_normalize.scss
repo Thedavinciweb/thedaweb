@@ -10,7 +10,7 @@
  */
 
 html {
-@include  font($font-stack, 400); /* 1 */
+@include  font($body, 400); /* 1 */
   line-height: 1.6;   /* 2*/
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
